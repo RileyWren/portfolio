@@ -1,4 +1,4 @@
-import { FaGithub, FaFacebook, FaDiscord } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaDiscord, FaEnvelope } from 'react-icons/fa';
 
 export default function Contact() {
   return (
@@ -18,7 +18,7 @@ export default function Contact() {
           <a href="https://www.facebook.com/profile.php?id=61552133309014" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-3 rounded-full">
             <FaFacebook size={20} />
           </a>
-          <a href="https://discord.gg/yKJhF5HSrm" className="bg-white/10 hover:bg-white/20 p-3 rounded-full">
+          <a href="https://discord.gg/yKJhF5HSrm" target="_blank" className="bg-white/10 hover:bg-white/20 p-3 rounded-full">
             <FaDiscord size={20} />
           </a>
         </div>
