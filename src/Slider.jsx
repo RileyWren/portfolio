@@ -74,19 +74,19 @@ const projects = [
     image: img1,
     title: 'Weather App',
     description: 'A simple weather app using OpenWeather API.',
-    url: 'https://yourusername.github.io/weather-app',
+    url: 'https://rileywren.github.io/gym-website/',
   },
   {
     image: img2,
     title: 'ToDo List',
     description: 'Task manager with localStorage support.',
-    url: 'https://yourusername.github.io/todo-list',
+    url: 'https://rileywren.github.io/resturant-website/',
   },
   {
     image: img3,
     title: 'Portfolio Website',
     description: 'My personal portfolio built with React & Tailwind.',
-    url: 'https://yourusername.github.io/portfolio',
+    url: 'https://rileywren.github.io/resturant-website/',
   },
 ];
 
@@ -99,7 +99,7 @@ export default function Slider() {
   const current = projects[index];
 
   return (
-    <section className="bg-[#0d1117] text-white py-16 px-4">
+    <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white py-16 px-4">
       <div className="text-center mb-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-2">My Projects Slider</h2>
         <p className="text-gray-400 text-sm md:text-base">Swipe through some of my work</p>
@@ -110,7 +110,7 @@ export default function Slider() {
           <img
             src={current.image}
             alt={current.title}
-            className="w-full h-64 md:h-96 object-cover transition-all duration-500"
+            className="w-full h-64 md:h-160 object-cover transition-all duration-500"
           />
           <div className="bg-[#161b22] px-6 py-4">
             <h3 className="text-xl font-semibold">{current.title}</h3>
