@@ -6,6 +6,9 @@ import { AnimatePresence, motion } from 'framer-motion';
 import img1 from './assets/portfolio1.png';
 import img2 from './assets/portfolio2.png';
 import img3 from './assets/portfolio3.png';
+import img4 from './assets/portfolio4.png';
+import img5 from './assets/portfolio5.png';
+
 
 const ProjectCard = ({ project }) => {
   const { title, description, imageUrl, liveUrl, codeUrl } = project;
@@ -75,40 +78,42 @@ const ProjectCard = ({ project }) => {
 
 const ProjectsShowcase = () => {
     const projects = [
-    {
-      title: "E-commerce Store",
-      description: "A fully functional e-commerce platform built with React and Node.js.",
-      imageUrl: img1,
-      liveUrl: 'https://wgfreyg455r.com',
-      codeUrl: "https://github.com/yourusername/ecommerce-repo",
+          {
+      title: "Portfolio website",
+      description: "My Weird Portfolio created in react.",
+      imageUrl: img4,
+      liveUrl: "https://rileywren.github.io/cx-7/",
+      codeUrl: "https://github.com/RileyWren/cx-7",
     },
+ 
     {
-      title: "Portfolio Website",
-      description: "My personal portfolio website showcasing my skills and projects.",
+      title: "Restuarant Website",
+      description: "A Restuarent website showcasing my skills and projects.",
       imageUrl: img2,
-      liveUrl: "https://your-portfolio-live-link.github.io/",
-      codeUrl: "https://github.com/yourusername/portfolio-repo",
+      liveUrl: "https://rileywren.github.io/resturant-website/",
+      codeUrl: "https://github.com/RileyWren/resturant-website",
     },
     {
-      title: "Task Management App",
-      description: "A simple and intuitive task management application.",
+      title: "Chat App",
+      description: "A Full Stack Chat app Created in MERN.",
       imageUrl: img3,
-      liveUrl: "https://your-taskapp-live-link.github.io/",
-      codeUrl: "https://github.com/yourusername/task-app-repo",
+      liveUrl: "https://kona-a8bn.onrender.com/",
+      // codeUrl: "https://github.com/",
     },
+
     {
-      title: "Recipe Finder",
-      description: "Discover new recipes based on available ingredients.",
+      title: "Steganography Tool",
+      description: "Using this tool you can hide content in text files, images, and in videos.",
+      imageUrl: img5,
+      liveUrl: "https://rileywren.github.io/steganography/",
+      codeUrl: "https://github.com/RileyWren/steganography",
+    },
+       {
+      title: "Gym Website",
+      description: "A fully functional Gym website built with React and Node.js.",
       imageUrl: img1,
-      liveUrl: "https://your-recipeapp-live-link.github.io/",
-      codeUrl: "https://github.com/yourusername/recipe-app-repo",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Real-time weather updates for any city.",
-      imageUrl: img2,
-      liveUrl: "https://your-weatherapp-live-link.github.io/",
-      codeUrl: "https://github.com/yourusername/weather-app-repo",
+      liveUrl: 'https://rileywren.github.io/gym-website/',
+      codeUrl: "https://github.com/RileyWren/gym-website",
     },
   ];
 
