@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     // <div className="sticky top-0 sm:top-6 z-50 sm:flex sm:justify-center sm:items-center bg-transparent p-4">
- <div className="sticky top-0 sm:top-0 z-50 sm:flex sm:justify-center sm:items-center bg-gradient-to-r from-orange-400/[0.2] via-black to-violet-400/[0.2] p-6 border border-b-white sm:border-hidden">
+ <div className="sticky top-0 sm:top-0 z-50 sm:flex sm:justify-center sm:items-center bg-gradient-to-r from-orange-400/[0.2] via-black to-violet-400/[0.2] p-6 border border-b-gray-500">
 
 
       <div className="max-w-screen-lg mx-auto flex items-center justify-between">
@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden sm:flex p-1 gap-1 shadow-inner">
+        <div className="hidden sm:flex p-1 gap-1">
           {tabs.map((tab) => (
             <button
               key={tab}
