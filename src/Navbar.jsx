@@ -33,7 +33,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden sm:flex bg-white/10 backdrop-blur-md p-1 rounded-full gap-1 shadow-inner border border-white/20">
+        <div className="hidden sm:flex p-1 gap-1 shadow-inner">
           {tabs.map((tab) => (
             <button
               key={tab}
