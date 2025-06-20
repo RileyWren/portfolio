@@ -8,6 +8,7 @@ import img2 from './assets/portfolio2.png';
 import img3 from './assets/portfolio3.png';
 import img4 from './assets/portfolio4.png';
 import img5 from './assets/portfolio5.png';
+import img6 from './assets/portfolio6.png';
 
 
 const ProjectCard = ({ project }) => {
@@ -88,7 +89,7 @@ const ProjectsShowcase = () => {
               {
       title: "Fast Food Website",
       description: "This website is created in Next JS",
-      imageUrl: img4,
+      imageUrl: img6,
       liveUrl: "https://burgary-khaki.vercel.app/",
       codeUrl: "https://github.com/RileyWren/fast_food_website",
     },
@@ -165,7 +166,7 @@ const ProjectsShowcase = () => {
     if (autoplayIntervalRef.current) {
       clearInterval(autoplayIntervalRef.current);
     }
-    autoplayIntervalRef.current = setInterval(goToNext, 5000);
+    autoplayIntervalRef.current = setInterval(goToNext, 2000);
     return () => clearInterval(autoplayIntervalRef.current);
   }, [projects.length]);
 
