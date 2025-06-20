@@ -118,7 +118,7 @@ const ProjectsShowcase = () => {
     },
        {
       title: "Gym Website",
-      description: "A fully functional Gym website built with React and Node.js.",
+      description: "A fully functional Gym website built with React.",
       imageUrl: img1,
       liveUrl: 'https://rileywren.github.io/gym-website/',
       codeUrl: "https://github.com/RileyWren/gym-website",
