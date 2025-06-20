@@ -85,6 +85,13 @@ const ProjectsShowcase = () => {
       liveUrl: "https://rileywren.github.io/cx-7/",
       codeUrl: "https://github.com/RileyWren/cx-7",
     },
+              {
+      title: "Fast Food Website",
+      description: "This website is created in Next JS",
+      imageUrl: img4,
+      liveUrl: "https://burgary-khaki.vercel.app/",
+      codeUrl: "https://github.com/RileyWren/fast_food_website",
+    },
  
     {
       title: "Restuarant Website",
