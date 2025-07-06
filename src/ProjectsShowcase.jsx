@@ -9,6 +9,8 @@ import img3 from './assets/portfolio3.png';
 import img4 from './assets/portfolio4.png';
 import img5 from './assets/portfolio5.png';
 import img6 from './assets/portfolio6.png';
+import img7 from './assets/portfolio66.gif';
+
 
 
 const ProjectCard = ({ project }) => {
@@ -89,7 +91,7 @@ const ProjectsShowcase = () => {
               {
       title: "Fast Food Website",
       description: "This website is created in Next JS",
-      imageUrl: img6,
+      imageUrl: img7,
       liveUrl: "https://burgary-khaki.vercel.app/",
       codeUrl: "https://github.com/RileyWren/fast_food_website",
     },
